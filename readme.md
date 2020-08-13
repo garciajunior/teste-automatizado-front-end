@@ -23,7 +23,7 @@
 
     > Instalar a gem `gem install bundler`
 
-    > Habilitar o firewall caso acuse permissão
+    > Habilitar o firewall caso precise de permissão
 
 ### Configuração linux:
   - Caso possua OS diferente do Ubuntu/Debian acesse [ruby-lang](https://www.ruby-lang.org/pt/documentation/installation/#apt)

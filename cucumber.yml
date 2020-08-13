@@ -7,6 +7,9 @@ progress: --format progress
 cenarioA: -t @EfetivarCompra
 cenarioB: -t @NameScenario
 
+homolog: AMBIENTE=homolog
+producao: AMBIENTE=producao
+
 chrome: BROWSER=chrome
 chrome_headless: BROWSER=chrome_headless
 firefox: BROWSER=firefox
