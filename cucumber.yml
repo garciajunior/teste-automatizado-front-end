@@ -1,0 +1,15 @@
+
+default: -p pretty -p chrome -p homolog -p html
+
+pretty: --format pretty
+progress: --format progress
+
+cenarioA: -t @EfetivarCompra
+cenarioB: -t @NameScenario
+
+chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
+firefox: BROWSER=firefox
+firefox_headless: BROWSER=firefox_headless
+
+html: --format html --out=results/report.html
